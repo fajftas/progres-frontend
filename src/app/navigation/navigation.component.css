@@ -1,5 +1,14 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+.bg-dark {
+  height:50px;
+  font-size: 12px;
+}
+
+.nav-item {
+  padding-top:4px;
+}
+
 .navbar-icon-top .navbar-nav .nav-link > .fa {
   position: relative;
   width: 36px;
