@@ -1,12 +1,31 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+.col-xs-1{
+margin-bottom:5px;}
+
+.col-xs-2{
+margin-bottom: 4px;
+}
+
+.nav-link:hover{
+color:#f50;
+}
+
+.navbar-brand{
+background-color:#f50;
+height:62px;
+}
+
+.navbar-brand:hover{
+color: white;
+}
+
 .bg-dark {
   height: 50px;
   font-size: 12px;
   position: fixed;
   width: 100% !important;
   left:0;
-  margin-bottom: 1500px;
 }
 
 .nav-item {
@@ -133,4 +152,6 @@
     }
 
   }
+
+
 }
