@@ -1,8 +1,12 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 .bg-dark {
-  height:50px;
+  height: 50px;
   font-size: 12px;
+  position: fixed;
+  width: 100% !important;
+  left:0;
+  margin-bottom: 1500px;
 }
 
 .nav-item {
@@ -120,5 +124,13 @@
 
   .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
     top: -7px;
+  }
+
+  @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
   }
 }
